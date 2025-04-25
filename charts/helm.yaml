@@ -1,0 +1,6 @@
+build:
+  uri: http://github.com/lucasViniciusLima/conversor-monetario-jsf
+  ref: 36.x
+  contextDir: conversor-monetario
+deploy:
+  replicas: 1

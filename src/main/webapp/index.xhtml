@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core"
+      xmlns:ui="jakarta.faces.facelets">
+
+<h:head>
+    <title>conversor monetário</title>
+</h:head>
+
+<h:body>
+    <h1>Conversor monetário</h1>
+
+    <h:form>
+        <h:inputText value="#{currencyConverterBean.value}"/>
+
+        <h:outputLabel value="de" for="from"/>
+
+        <h:selectOneMenu value="#{currencyConverterBean.from}" id="from">
+            <f:selectItems
+                    value="#{currencyConverterBean.taxes.keySet()}"
+                    var="tax"
+                    itemValue="#{tax}"
+                    itemLabel="#{tax}"/>
+        </h:selectOneMenu>
+
+        <h:outputLabel value="para" for="to"/>
+        <h:selectOneMenu value="#{currencyConverterBean.to}" id="to">
+            <f:selectItems
+                    value="#{currencyConverterBean.taxes.keySet()}"
+                    var="tax"
+                    itemValue="#{tax}"
+                    itemLabel="#{tax}"/>
+        </h:selectOneMenu>
+
+        <h:commandButton value="Converter" action="#{currencyConverterBean.convert}"/>
+    </h:form>
+    <br/>
+    Resultado: #{currencyConverterBean.result}
+
+</h:body>
+
+</html>
