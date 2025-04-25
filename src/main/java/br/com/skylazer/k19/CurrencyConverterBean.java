@@ -13,7 +13,7 @@ public class CurrencyConverterBean {
     private String from;
     private String to;
     private Double value = 0d;
-    private Double result = 0d;
+    private Double result;
     private Map<String, Double> taxes = new LinkedHashMap<>();
     private final DecimalFormat df = new DecimalFormat("#.##");
 

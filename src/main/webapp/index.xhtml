@@ -36,7 +36,13 @@
         <h:commandButton value="Converter" action="#{currencyConverterBean.convert}"/>
     </h:form>
     <br/>
-    Resultado: #{currencyConverterBean.result}
+    <h:outputFormat value="{0} em {1} equivale a {2} em {3}"
+                    rendered="#{currencyConverterBean.result != null}">
+        <f:param value="#{currencyConverterBean.value}"/>
+        <f:param value="#{currencyConverterBean.from}"/>
+        <f:param value="#{currencyConverterBean.result}"/>
+        <f:param value="#{currencyConverterBean.to}"/>
+    </h:outputFormat>
 
 </h:body>
 
