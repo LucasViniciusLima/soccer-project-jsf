@@ -1,6 +1,6 @@
 # Soccer Project - Prova de Conceito (JSF)
 
-Este projeto é uma Prova de Conceito (PoC) simples, construída com Java 17, Maven, JSF (Jakarta Faces) e deploy em WildFly 36, com o objetivo de demonstrar uma aplicação web básica. Inicialmente um conversor monetário, o foco agora está em testar estruturas para futuras funcionalidades voltadas ao contexto de um sistema para o universo do futebol.
+Este projeto é uma Prova de Conceito (PoC) simples, construída com Java 17, Maven, JSF (Jakarta Faces) e deploy em WildFly 36, com o objetivo de demonstrar uma aplicação web básica. Foco em testar estruturas para futuras funcionalidades voltadas ao contexto de um sistema para o universo do futebol.
 
 
 ### ⚙️ Tecnologias Utilizadas

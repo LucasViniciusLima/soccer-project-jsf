@@ -17,7 +17,7 @@
     <artifactId>soccer-project</artifactId>
     <version>36.0.0.Final</version>
     <packaging>war</packaging>
-    <name>conversor-monetario</name>
+    <name>soccer-project</name>
     <description>This project is a Prove of concepts using jsf</description>
 
     <licenses>
