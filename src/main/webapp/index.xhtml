@@ -5,45 +5,11 @@
       xmlns:ui="jakarta.faces.facelets">
 
 <h:head>
-    <title>conversor monetário</title>
+    <title>Soccer Project</title>
 </h:head>
 
 <h:body>
-    <h1>Conversor monetário</h1>
-
-    <h:form>
-        <h:inputText value="#{currencyConverterBean.value}"/>
-
-        <h:outputLabel value="de" for="from"/>
-
-        <h:selectOneMenu value="#{currencyConverterBean.from}" id="from">
-            <f:selectItems
-                    value="#{currencyConverterBean.taxes.keySet()}"
-                    var="tax"
-                    itemValue="#{tax}"
-                    itemLabel="#{tax}"/>
-        </h:selectOneMenu>
-
-        <h:outputLabel value="para" for="to"/>
-        <h:selectOneMenu value="#{currencyConverterBean.to}" id="to">
-            <f:selectItems
-                    value="#{currencyConverterBean.taxes.keySet()}"
-                    var="tax"
-                    itemValue="#{tax}"
-                    itemLabel="#{tax}"/>
-        </h:selectOneMenu>
-
-        <h:commandButton value="Converter" action="#{currencyConverterBean.convert}"/>
-    </h:form>
-    <br/>
-    <h:outputFormat value="{0} em {1} equivale a {2} em {3}"
-                    rendered="#{currencyConverterBean.result != null}">
-        <f:param value="#{currencyConverterBean.value}"/>
-        <f:param value="#{currencyConverterBean.from}"/>
-        <f:param value="#{currencyConverterBean.result}"/>
-        <f:param value="#{currencyConverterBean.to}"/>
-    </h:outputFormat>
-
+    <h1>Soccer project</h1>
 </h:body>
 
 </html>

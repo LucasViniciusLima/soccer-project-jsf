@@ -1,6 +1,7 @@
-# Conversor Monetário - Prova de Conceito (JSF)
+# Soccer Project - Prova de Conceito (JSF)
 
-Este projeto é uma Prova de Conceito (PoC) simples, construída com Java 17, Maven, JSF (Jakarta Faces) e deploy em WildFly 36, com o objetivo de demonstrar uma aplicação web básica de conversão monetária.
+Este projeto é uma Prova de Conceito (PoC) simples, construída com Java 17, Maven, JSF (Jakarta Faces) e deploy em WildFly 36, com o objetivo de demonstrar uma aplicação web básica. Inicialmente um conversor monetário, o foco agora está em testar estruturas para futuras funcionalidades voltadas ao contexto de um sistema para o universo do futebol.
+
 
 ### ⚙️ Tecnologias Utilizadas
 
@@ -12,7 +13,8 @@ Este projeto é uma Prova de Conceito (PoC) simples, construída com Java 17, Ma
 - XHTML
 
 ### 📌 Objetivo
-Validar a estrutura e funcionamento de uma aplicação web usando JSF para construir a interface de um conversor de moedas, mantendo o foco na simplicidade e clareza.
+
+Validar a estrutura e o funcionamento de uma aplicação web usando JSF para construir a interface de um sistema básico, mantendo o foco na simplicidade e clareza, com vistas a funcionalidades futuras relacionadas ao "Soccer Project".
 
 ### 🚀 Como Executar
 1 - Compile o projeto:

@@ -44,7 +44,7 @@ public class BasicRuntimeIT {
             serverHost = DEFAULT_SERVER_HOST;
         }
         final HttpRequest request = HttpRequest.newBuilder()
-                .uri(new URI(serverHost+"/conversor-monetario"))
+                .uri(new URI(serverHost+"/soccer-project"))
                 .GET()
                 .build();
         final HttpClient client = HttpClient.newBuilder()

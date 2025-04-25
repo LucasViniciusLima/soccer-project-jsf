@@ -1,6 +1,6 @@
 build:
-  uri: http://github.com/lucasViniciusLima/conversor-monetario-jsf
+  uri: http://github.com/lucasViniciusLima/soccer-project-jsf
   ref: 36.x
-  contextDir: conversor-monetario
+  contextDir: soccer-project
 deploy:
   replicas: 1
